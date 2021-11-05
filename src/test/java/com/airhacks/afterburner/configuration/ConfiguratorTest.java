@@ -15,6 +15,10 @@
  */
 package com.airhacks.afterburner.configuration;
 
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.is;
+
 /*
  * #%L
  * afterburner.fx
@@ -35,9 +39,7 @@ package com.airhacks.afterburner.configuration;
  * #L%
  */
 import java.util.function.Function;
-import static org.hamcrest.CoreMatchers.is;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertThat;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -46,7 +48,7 @@ import org.junit.Test;
  * @author airhacks.com
  */
 public class ConfiguratorTest {
-
+	
     Configurator cut;
 
     @Before

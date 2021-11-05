@@ -36,7 +36,8 @@ package com.airhacks.afterburner.injection;
  */
 
 import java.util.Date;
-import javax.inject.Inject;
+
+import jakarta.inject.Inject;
 
 /**
  *
