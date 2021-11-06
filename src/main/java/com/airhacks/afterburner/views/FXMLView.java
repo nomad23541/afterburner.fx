@@ -214,7 +214,6 @@ public abstract class FXMLView extends StackPane {
         if (found != null) {
             return name;
         }
-        System.err.println("File: " + name + " not found, attempting with camel case");
         name = getConventionalName(false, ending);
         found = getClass().getResource(name);
         if (mandatory && found == null) {
